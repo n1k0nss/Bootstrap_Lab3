@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Nunito:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbarNav{
+    margin-left:40px;
+    padding:10px;
+}
+.logo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    margin-left:50px;
+}
+.nav-link{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+.nav-item{
+    margin:5px 20px 0px 0px;
+}
+
+.style-carousel{
+    margin-top:100px;
+}
+
+
+
+.auth-btn-block{
+    position: relative;
+    left:70%;
+}
+.h1-form{
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 400px;
+    padding:20px;
+    margin: 40px;
+}
+
+.h1-form{
+    text-align: center;
+}
+
+.carousel-inner{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-slide{
+    width: 500px;
+    height: 500px;
+}
+
+.alert-style{
+    margin-top:50px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+}
+
